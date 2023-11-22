@@ -1,6 +1,9 @@
 # bunsh
 
+![Screenshot](assets/screenshot.png)
+
 An experimental Bun.js shell, because why not?
+
 
 ## Commands
 
