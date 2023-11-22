@@ -43,9 +43,9 @@ bun run .
 
 ## Plans
 
-[*] Add some commands
-[ ] Add fallback to system commands
-[ ] Add fallback message if command not found
+- [*] Add some commands
+- [ ] Add fallback to system commands
+- [ ] Add fallback message if command not found
 
 ## Info
 
