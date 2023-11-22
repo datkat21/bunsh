@@ -1,15 +1,34 @@
 # bunsh
 
+An experimental Bun.js shell, because why not?
+
+## Dependencies
+
+- chalk
+- cli-table
+
+That's it...
+
+## Setup 
+
 To install dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+### Running
+
+To build as executable:
 
 ```bash
-bun run index.ts
+bun build ./index.ts --compile --outfile bunsh
 ```
 
-This project was created using `bun init` in bun v1.0.11. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Or, to run normally:
+
+```bash
+bun run .
+```
+
+This project was created using `bun init` in [Bun](https://bun.sh) v1.0.11.
